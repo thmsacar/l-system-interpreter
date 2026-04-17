@@ -1,6 +1,6 @@
 # Interpréteur de systèmes de Lindenmayer
 
-Langue: [EN](README.en.md) | [FR](README.fr.md)
+Langue: [EN](README.md) | [FR](README.fr.md)
 
 C'est un interpréteur de L-systèmes écrit en Java. La visualisation en 2D et 3D est implémentée.
 

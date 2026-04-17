@@ -1,6 +1,6 @@
 # Lindenmayer System Interpreter
 
-Language: [EN](README.en.md) | [FR](README.fr.md)
+Language: [EN](README.md) | [FR](README.fr.md)
 
 
 This is a L-System Interpreter wrote on Java. Visualisation in 2D and 3D is implemented.
