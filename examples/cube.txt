@@ -1,0 +1,17 @@
+axiom = A
+rule = A, ^\AB^\ABA+B^//ABA_B-//ABA+B/A+/
+
+iteration = 3
+
+action = B, move 50
+
+
+action = +, left 90
+action = -, right 90
+action = ^, up 90
+action = _, down 90
+action = /, rollR 90
+action = \, rollL 90
+
+action = [, push
+action = ], pop

@@ -1,0 +1,10 @@
+axiom = F
+rule = F, F-F++F-F
+
+iteration = 1
+
+action = F, move 50
+
+
+action = +, left 60
+action = -, right 60

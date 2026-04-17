@@ -1,0 +1,25 @@
+# Quantum Lotus Flower (Context-Sensitive)
+# -----------------------------------------------------------
+axiom = W
+
+# Leaves only if there is body on left
+rule = F < W, [+L][-R]FW
+
+# In case of no body we add a body
+rule = W, FW
+
+rule = L, F [+L]
+rule = R, F [-R]
+
+rule = F, F F
+
+iteration = 6
+
+action = F, move 5
+action = L, move 5
+action = R, move 5
+action = W, move 5
+action = +, left 18
+action = -, right 18
+action = [, push
+action = ], pop

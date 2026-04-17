@@ -1,0 +1,22 @@
+axiom = EEEA
+rule = A, [++++++++++++++EC]B^+B[--------------ED]B+BA
+rule = C, [---------EE][+++++++++EE]B__+C
+rule = D, [---------EE][+++++++++EE]B__-D
+
+iteration = 12
+
+action = A, move 50
+action = B, move 50
+action = C, move 50
+action = D, move 50
+action = E, move 50
+
+action = +, left 4
+action = -, right 4
+action = ^, up 4
+action = _, down 4
+action = /, rollR 4
+action = \, rollL 4
+
+action = [, push
+action = ], pop

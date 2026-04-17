@@ -1,0 +1,15 @@
+# The Guarded Koch Island
+# -------------------------------------------
+# X ve Y symbols are "guards" protecting the corners and
+
+axiom = XFFFFY - XFFFFY - XFFFFY - XFFFFY
+
+rule = F<F>F, F-F+F+F-F
+
+iteration = 3
+
+action = F, move 8
+action = X, move 8
+action = Y, move 8
+action = +, left 90
+action = -, right 90

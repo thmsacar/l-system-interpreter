@@ -1,0 +1,15 @@
+axiom = F
+rule = F, F[+F]F[-F]F:0.33
+rule = F, F[+F]F:0.33
+rule = F, F[-F]F:0.33
+
+iteration = 5
+
+action = F, move 20
+
+action = +, left 25
+action = -, right 25
+
+action = [, push
+action = ], pop
+

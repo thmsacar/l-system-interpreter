@@ -1,0 +1,23 @@
+axiom = 1B1B1B
+
+rule = A < A > A, B
+rule = A < A > B, B[-1B1B]
+rule = A < B > A, B
+rule = A < B > B, B
+rule = B < A > A, A
+rule = B < A > B, B1B
+rule = B < B > A, B
+rule = B < B > B, A
+
+rule = +, -
+rule = -, +
+
+iteration = 30
+
+action = 1, move 10
+action = A, move 10
+action = B, move 10
+action = +, left 22.5
+action = -, right 22.5
+action = [, push
+action = ], pop
