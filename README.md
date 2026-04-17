@@ -7,6 +7,8 @@ This is a L-System Interpreter wrote on Java. Visualisation in 2D and 3D is impl
 Deterministic, stochastic and some contextual (with technical limits) systems are implemented.
 This was a team project I worked on for a semester. For more details please see the report of the project
 
+To create java doc use `ant doc`
+
 
 ## Usage
 To compile and execute the project using **ANT**, use the following command:

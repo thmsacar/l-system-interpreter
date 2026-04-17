@@ -8,6 +8,8 @@ Les systèmes déterministes, stochastiques et certains systèmes contextuels (a
 
 C'était un projet d'équipe sur lequel j'ai travaillé pendant un semestre. Pour plus de détails, veuillez consulter le rapport du projet.
 
+Pour créer la Javadoc, utilisez `ant doc`
+
 ## Utilisation
 Pour compiler et exécuter le projet avec **ANT**, utilisez la commande suivante :
 > ant run -Dfile={filepath} -Dturtle={2d|3d} -Dtext={y|n}
