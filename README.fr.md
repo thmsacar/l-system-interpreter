@@ -6,7 +6,7 @@ C'est un interpréteur de L-systèmes écrit en Java. La visualisation en 2D et 
 
 Les systèmes déterministes, stochastiques et certains systèmes contextuels (avec des limitations techniques) sont implémentés.
 
-C'était un projet d'équipe sur lequel j'ai travaillé pendant un semestre.
+C'était un projet d'équipe sur lequel j'ai travaillé pendant un semestre. Pour plus de détails, veuillez consulter le rapport du projet.
 
 ## Utilisation
 Pour compiler et exécuter le projet avec **ANT**, utilisez la commande suivante :

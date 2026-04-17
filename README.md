@@ -5,7 +5,7 @@ Language: [EN](README.md) | [FR](README.fr.md)
 
 This is a L-System Interpreter wrote on Java. Visualisation in 2D and 3D is implemented.
 Deterministic, stochastic and some contextual (with technical limits) systems are implemented.
-This was a team project I worked on for a semester.
+This was a team project I worked on for a semester. For more details please see the report of the project
 
 
 ## Usage
